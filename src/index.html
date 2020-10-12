@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Create an account</title>
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+  </head>
+
+  <body class="account-form">
+    <main>
+			<div class="content">
+				<form class="form" action="" method="">
+					<div class="form__item firstname-wrapper">
+						<label class="form__label" for="firstname">First Name *</label>
+						<input class="form__input" type="text" name="firstname" id="firstname" rqrd>
+						<div class="form__error"></div>
+					</div>
+					<div class="form__item lastname-wrapper">
+						<label class="form__label" for="lastname">Last Name *</label>
+						<input class="form__input" type="text" name="lastname" id="lastname" rqrd>
+						<div class="form__error"></div>
+					</div>
+					<div class="form__item email-wrapper">
+						<label class="form__label" for="email">Email Address *</label>
+						<input class="form__input" type="email" name="email" id="email" rqrd >
+						<div class="form__error"></div>
+					</div>
+					<div class="form__item phone-wrapper">
+						<label class="form__label" for="phone">Phone Number *</label>
+						<input class="form__input" type="tel" name="phone" id="phone" data-code="" data-count="" rqrd>
+						<div class="form__error"></div>
+          </div>
+					<div class="form__item country-wrapper form__item--full">
+						<label class="form__label" for="country">Country *</label>
+						<input class="form__input form__input--uppercase" type="text" name="country" id="country" rqrd>
+						<div class="form__error"></div>
+					</div>
+					<div class="form__item postnumber-wrapper">
+						<label class="form__label" for="postnumber">Post number *</label>
+						<input class="form__input" type="text" name="postnumber" id="postnumber" disabled rqrd>
+						<div class="form__error"></div>
+          </div>
+					<div class="form__item city-wrapper">
+						<label class="form__label" for="city">City</label>
+						<input class="form__input" type="text" name="city" id="city" disabled>
+						<div class="form__error"></div>
+					</div>
+					<div class="form__item form__item--full address-wrapper">
+						<label class="form__label" for="address">Address *</label>
+						<input class="form__input" type="text" name="address" id="address" rqrd>
+						<div class="form__error"></div>
+					</div>
+					<div class="form__item form__item--full form__item--actions">
+						<button class="form__button" type="submit" name="register">Register</button>
+					</div>
+				</form>
+			</div>
+		</main>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>

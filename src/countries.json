@@ -1,0 +1,62 @@
+{
+  "countries": [{
+    "name": "norway",
+    "code": "no",
+    "phoneNumberCode": 47,
+    "phoneNumberLength": 8
+  },
+  {
+    "name": "denmark",
+    "code": "dk",
+    "phoneNumberCode": 45,
+    "phoneNumberLength": 8
+  },
+  {
+    "name": "sweden",
+    "code": "se",
+    "phoneNumberCode": 46,
+    "phoneNumberLength": 10
+  },
+  {
+    "name": "finland",
+    "code": "fi",
+    "phoneNumberCode": 358,
+    "phoneNumberLength": 10
+  },
+  {
+    "name": "netherlands",
+    "code": "nl",
+    "phoneNumberCode": 31,
+    "phoneNumberLength": 9
+  },
+  {
+    "name": "germany",
+    "code": "ge",
+    "phoneNumberCode": 49,
+    "phoneNumberLength": 10
+  },
+  {
+    "name": "united states",
+    "code": "us",
+    "phoneNumberCode": 1,
+    "phoneNumberLength": 10
+  },
+  {
+    "name": "belgium",
+    "code": "be",
+    "phoneNumberCode": 32,
+    "phoneNumberLength": 9
+  },
+  {
+    "name": "faroe islands",
+    "code": "fo",
+    "phoneNumberCode": 298,
+    "phoneNumberLength": 6
+  },
+  {
+    "name": "greenland",
+    "code": "gl",
+    "phoneNumberCode": 299,
+    "phoneNumberLength": 6
+  }]
+}
